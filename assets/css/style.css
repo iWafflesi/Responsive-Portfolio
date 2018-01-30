@@ -1,0 +1,447 @@
+
+body {
+	margin: 0;
+	background-image: url("../images/intersection/intersection.png");
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px solid #cccccc;
+	background: #ffffff;
+	font-family: 'Georgia', Times, Times 'New Roman', serif;
+	display: flex;
+	justify-content: center;
+
+}
+
+#name-box {
+	padding: 0px 20px 0px 20px;
+	line-height: 90px;
+	margin: 1px;
+	margin-right: 330px; 
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	height: 99%;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+#buttonbox {
+	margin-top: 40px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.Buttons {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-right: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	font-size: 20px;
+	color:#777777;
+	border-right: 1px solid #cccccc;
+	text-decoration: none;
+}
+
+.Buttons3 {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+
+	font-size: 20px;
+	color:#777777;
+	text-decoration: none;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+}
+
+#main {
+	padding: 30px;
+	margin-top: 50px;
+	background: #ffffff;
+	height: 460px;
+	width: 590px;
+	border: 1px solid #dddddd;
+	margin-bottom: 250px;
+	p
+}
+
+#main1 {
+	padding: 30px;
+	margin-top: 50px;
+	background: #ffffff;
+	height: 800px;
+	width: 590px;
+	border: 1px solid #dddddd;
+	margin-bottom: 150px;
+}
+
+#main2 {
+	padding: 30px;
+	margin-top: 50px;
+	background: #ffffff;
+	height: 600px;
+	width: 590px;
+	border: 1px solid #dddddd;
+	margin-bottom: 150px;
+}
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 22px;
+	
+}
+
+#about-me {
+	font-family: 'Georgia', Times, Times 'New Roman', serif;
+	font-size: 35px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin-bottom: 25px;
+	border-bottom: 3px solid #cccccc;
+}
+
+
+#profile-picture {
+	float: left;
+	padding-right: 20px;
+}
+
+.banner-position {
+	float: left;
+}
+
+.special {
+	margin-left: 35px;
+}
+
+#placeholder-image {
+	padding: 20px;
+}
+
+.photo-banner {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	color: #ffffff;
+	height: 25px;
+	width: 220px;
+	background: #4aaaa5;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 20px;
+	font-family: 'Georgia', Times, Times 'New Roman', serif;
+}
+
+.paragraph {
+	color:#777777;
+	font-size: 19px;
+	line-height: 150%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.paragraph2 {
+	color:#777777;
+	font-size: 19px;
+	line-height: 150%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px;   
+	border: 1px solid #cccccc; 
+	border-radius: none; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical; 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 30px;
+	border: none;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+input[type=submit]:hover {
+	background-color: #5bd1cb;
+}
+
+#sidebar {
+	margin-top: 50px;
+	margin-left: 40px;
+	background: #ffffff;
+	height: 200px;
+	width: 230px;
+	padding: 0px 20px 0px 20px;
+	border: 1px solid #dddddd;
+}
+
+#connectwithme {
+	font-family: 'Georgia', Times, Times 'New Roman', serif;
+	font-size: 25px;
+	margin-top: 25px;;
+	height: 30px;
+	padding-bottom: 15px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #cccccc;
+	display: flex;
+	justify-content: center;
+}
+
+#navlink {
+	display: flex;
+	justify-content: center;
+	height: 20px;
+	width: 100%;
+}
+
+.icons {
+	padding: 4px;
+}
+
+footer { 
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 20px solid #4aaaa5;
+	height: 35px;
+	text-align: center;
+	background-color: #666666;
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 40px;
+	position: fixed;
+}
+
+/* Media */
+
+@media screen and (max-width: 980px) {
+
+	#buttonbox {
+		float: right;
+		margin-right: 10px;
+	}
+
+	#main {
+		width: 30%;
+		height: 100%;
+	}
+
+	nav {
+  width: 100%;
+	}
+
+	#name-box {
+		margin-right: unset;
+		margin-left: 10px;
+	}
+
+	#profile-picture {
+		width: 100%;
+    height: auto;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+		#name-box	{
+			margin-left: 25px;
+		}
+
+		#buttonbox {
+			margin-right: 25px;
+			float: right;
+		}
+
+
+	nav {
+		width: 100%;
+		
+		}
+
+	#container {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	#sidebar {
+		margin-left: auto;
+		margin-right: auto;
+		width: 88%;
+		margin-bottom: 150px;
+	}
+
+	#main {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		width: 85%;
+		height: 25%;	
+	}
+
+	#main1 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		width: 85%;
+		height: 800px;
+	}
+
+	#main2 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		width: 85%;
+		height: 25%;	
+	}
+
+	.banner-position.special {
+		margin-left: 10%;
+	}
+
+	#profile-picture {
+		width: 220px;
+		height: 200px;
+	}
+
+	.footer {
+		position: fixed;
+
+	}
+
+	#connectwithme {
+		justify-content: unset;
+	}
+
+	#navlink {
+		justify-content: unset;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+
+	.Buttons {
+		padding-right: 70px;
+		margin-right: 70px;
+}
+
+	header {
+		margin-bottom: 30px;
+	}
+
+	#name-box {
+		float: none;
+		display: flex;
+		justify-content: center;
+		margin-left: 0;
+	}
+
+	#buttonbox {
+		float: none;
+		display: flex;
+		justify-content: center;
+		background-color: #ffffff;
+    height: 40px;
+    margin-top: 0;
+    border-bottom: solid 1px #ccc;
+		padding-top: 20px;
+		margin-right: 0;
+	}
+
+	#profile-picture {
+		float: left;
+		width: 100%;
+		height: auto;
+	}
+
+	#main {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		height: 1000px;
+		width: 85%;
+	}
+
+	#main1 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		height: 2300px;
+		width: 85%;
+	}
+
+	#main2 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		height: auto;
+		width: 85%;
+	}
+
+	#sidebar {
+		margin-left: auto;
+		margin-right: auto;
+		width: 88%;
+		margin-bottom: 150px;
+	}
+
+	#placeholder-image {
+		height: 400px;
+		width: 440px;
+		float: left;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	
+	.banner-position {
+		float: left;
+	}
+
+	.photo-banner {
+		height: 40px;
+		padding-top: 20px;
+		width: 440px;
+		margin-top: 340px;
+		margin-left: 60px;
+	}
+
+	.banner-position.special {
+		margin-left: 0;
+	}
+
+	p	{
+		float: left;
+	}
+
+	#connectwithme {
+		justify-content: unset;
+	}
+
+	#navlink {
+		justify-content: unset;
+	}
+
+}
